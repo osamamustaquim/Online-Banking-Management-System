@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>transferring fund</title><link href="assests/css/bootstrap.min.css" rel="stylesheet">
+<link href="assests/fonts/css/all.css" rel="stylesheet">
+<link href="assests/css/bootstrap-theme.min.css" rel="stylesheet">
+<script src="assests/js/jquery-2.2.0.min.js"  type="text/javascript"></script>
+<script src="assests/js/bootstrap.min.js"  type="text/javascript"></script>
+
+</head>
+<body>
+<form action="Transferservlet" method="post">
+<h1></h1>
+<h2>Fund Transfer</h2>
+<label>Beneficiary Account Number</label>
+<input type="text" name="toacc"><br><br>
+
+<label>Beneficiary Name</label>
+<input type="text" name="accholdername"><br><br>
+
+<label>Amount to transfer</label>
+<input type="text" name="tamount"><br>
+
+<label>Enter current date</label>
+<input type="date" name="date" id="date" placeholder="yyyy-MM-dd"/><br>
+
+<input type="submit" value="Send">
+
+
+</form>
+</body>
+</html>
+
+
+Please enter 11 digit Account Number
